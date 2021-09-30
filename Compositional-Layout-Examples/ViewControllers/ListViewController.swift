@@ -15,7 +15,7 @@ class ListViewController: UIViewController {
         return collectionView
     }()
     
-    private var dataSource: UICollectionViewDiffableDataSource<Int, Color>!
+    private var dataSource: ColorDiffableDataSource!
 
     static func createLayout() -> UICollectionViewLayout {
         return UICollectionViewCompositionalLayout { (sectionNumber, env) in
