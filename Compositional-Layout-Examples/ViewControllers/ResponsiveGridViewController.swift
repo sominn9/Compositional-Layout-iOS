@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ResponsiveLayoutViewController: UIViewController {
+class ResponsiveGridViewController: UIViewController {
 
     private var collectionView: UICollectionView!
     

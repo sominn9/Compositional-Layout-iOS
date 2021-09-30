@@ -29,10 +29,10 @@ struct Container: UIViewControllerRepresentable {
 //        UINavigationController(rootViewController: ListViewController())
         
         // 반응형 뷰
-//        UINavigationController(rootViewController: ResponsiveLayoutViewController())
+        UINavigationController(rootViewController: ResponsiveGridViewController())
         
         // 로딩 뷰
-        UINavigationController(rootViewController: LazyGridViewController())
+//        UINavigationController(rootViewController: LazyGridViewController())
     }
     
     func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {
