@@ -18,6 +18,7 @@ class RoundedCornerColorCell: UICollectionViewCell {
     }
     
     override func layoutSubviews() {
+        super.layoutSubviews()
         contentView.layer.cornerRadius = 10
     }
     
