@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		CB039CEB27055CBB004781F8 /* ColorDiffableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB039CEA27055CBB004781F8 /* ColorDiffableDataSource.swift */; };
 		CB039CEE270566A6004781F8 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB039CED270566A6004781F8 /* Color.swift */; };
+		CB039CF027056FB6004781F8 /* StickyHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB039CEF27056FB6004781F8 /* StickyHeaderViewController.swift */; };
+		CB039CF22705835C004781F8 /* ResponsiveLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB039CF12705835C004781F8 /* ResponsiveLayoutViewController.swift */; };
 		CB4800EE27032B5E0002D3F1 /* Compositional_Layout_ExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4800ED27032B5E0002D3F1 /* Compositional_Layout_ExamplesApp.swift */; };
 		CB4800F027032B5E0002D3F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4800EF27032B5E0002D3F1 /* ContentView.swift */; };
 		CB4800F227032B5F0002D3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4800F127032B5F0002D3F1 /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 /* Begin PBXFileReference section */
 		CB039CEA27055CBB004781F8 /* ColorDiffableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDiffableDataSource.swift; sourceTree = "<group>"; };
 		CB039CED270566A6004781F8 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		CB039CEF27056FB6004781F8 /* StickyHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderViewController.swift; sourceTree = "<group>"; };
+		CB039CF12705835C004781F8 /* ResponsiveLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsiveLayoutViewController.swift; sourceTree = "<group>"; };
 		CB4800EA27032B5E0002D3F1 /* Compositional-Layout-Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Compositional-Layout-Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4800ED27032B5E0002D3F1 /* Compositional_Layout_ExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compositional_Layout_ExamplesApp.swift; sourceTree = "<group>"; };
 		CB4800EF27032B5E0002D3F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				CB4800FC27032C330002D3F1 /* ListViewController.swift */,
+				CB039CEF27056FB6004781F8 /* StickyHeaderViewController.swift */,
+				CB039CF12705835C004781F8 /* ResponsiveLayoutViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -195,12 +201,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB039CF22705835C004781F8 /* ResponsiveLayoutViewController.swift in Sources */,
 				CB4800F027032B5E0002D3F1 /* ContentView.swift in Sources */,
 				CB48010127032D440002D3F1 /* RoundedCornerColorCell.swift in Sources */,
 				CB4800EE27032B5E0002D3F1 /* Compositional_Layout_ExamplesApp.swift in Sources */,
 				CB48010727034B230002D3F1 /* ColorSnapshot+Extension.swift in Sources */,
 				CB4800FD27032C330002D3F1 /* ListViewController.swift in Sources */,
 				CB039CEE270566A6004781F8 /* Color.swift in Sources */,
+				CB039CF027056FB6004781F8 /* StickyHeaderViewController.swift in Sources */,
 				CB48010527034AC40002D3F1 /* UIColor+Extension.swift in Sources */,
 				CB039CEB27055CBB004781F8 /* ColorDiffableDataSource.swift in Sources */,
 			);

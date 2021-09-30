@@ -15,7 +15,6 @@ class ColorDiffableDataSource: UICollectionViewDiffableDataSource<Int, Color> {
                 withReuseIdentifier: RoundedCornerColorCell.identifier,
                 for: indexPath
             )
-            print(color)
             cell.contentView.backgroundColor = color.color
             return cell
         }
