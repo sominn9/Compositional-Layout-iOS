@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB039CEB27055CBB004781F8 /* ColorDiffableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB039CEA27055CBB004781F8 /* ColorDiffableDataSource.swift */; };
+		CB039CEE270566A6004781F8 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB039CED270566A6004781F8 /* Color.swift */; };
 		CB4800EE27032B5E0002D3F1 /* Compositional_Layout_ExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4800ED27032B5E0002D3F1 /* Compositional_Layout_ExamplesApp.swift */; };
 		CB4800F027032B5E0002D3F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4800EF27032B5E0002D3F1 /* ContentView.swift */; };
 		CB4800F227032B5F0002D3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4800F127032B5F0002D3F1 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB039CEA27055CBB004781F8 /* ColorDiffableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDiffableDataSource.swift; sourceTree = "<group>"; };
+		CB039CED270566A6004781F8 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		CB4800EA27032B5E0002D3F1 /* Compositional-Layout-Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Compositional-Layout-Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4800ED27032B5E0002D3F1 /* Compositional_Layout_ExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compositional_Layout_ExamplesApp.swift; sourceTree = "<group>"; };
 		CB4800EF27032B5E0002D3F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB039CEC2705668A004781F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB039CED270566A6004781F8 /* Color.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		CB4800E127032B5E0002D3F1 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +73,7 @@
 			children = (
 				CB4801022703348E0002D3F1 /* DataSources */,
 				CB48010327034A940002D3F1 /* Extensions */,
+				CB039CEC2705668A004781F8 /* Models */,
 				CB4800FF27032D190002D3F1 /* Views */,
 				CB4800FB27032B700002D3F1 /* ViewControllers */,
 				CB4800ED27032B5E0002D3F1 /* Compositional_Layout_ExamplesApp.swift */,
@@ -98,6 +111,7 @@
 		CB4801022703348E0002D3F1 /* DataSources */ = {
 			isa = PBXGroup;
 			children = (
+				CB039CEA27055CBB004781F8 /* ColorDiffableDataSource.swift */,
 			);
 			path = DataSources;
 			sourceTree = "<group>";
@@ -186,7 +200,9 @@
 				CB4800EE27032B5E0002D3F1 /* Compositional_Layout_ExamplesApp.swift in Sources */,
 				CB48010727034B230002D3F1 /* ColorSnapshot+Extension.swift in Sources */,
 				CB4800FD27032C330002D3F1 /* ListViewController.swift in Sources */,
+				CB039CEE270566A6004781F8 /* Color.swift in Sources */,
 				CB48010527034AC40002D3F1 /* UIColor+Extension.swift in Sources */,
+				CB039CEB27055CBB004781F8 /* ColorDiffableDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

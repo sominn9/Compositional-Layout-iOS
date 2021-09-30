@@ -15,7 +15,7 @@ class ListViewController: UIViewController {
         return collectionView
     }()
     
-    private var dataSource: UICollectionViewDiffableDataSource<Int, UIColor>!
+    private var dataSource: UICollectionViewDiffableDataSource<Int, Color>!
 
     static func createLayout() -> UICollectionViewLayout {
         return UICollectionViewCompositionalLayout { (sectionNumber, env) in
@@ -49,21 +49,9 @@ class ListViewController: UIViewController {
         collectionView.frame = view.bounds
         collectionView.register(RoundedCornerColorCell.self, forCellWithReuseIdentifier: RoundedCornerColorCell.identifier)
         
-        dataSource = UICollectionViewDiffableDataSource<Int, UIColor>(collectionView: collectionView) {
-            collectionView, indexPath, color in
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: RoundedCornerColorCell.identifier, for: indexPath)
-            cell.contentView.backgroundColor = color
-            return cell
-        }
+        dataSource = ColorDiffableDataSource(collectionView: collectionView)
         // Apply the snapshot.
-        dataSource.apply(createColorSnapshot())
-    }
-    
-    private func createColorSnapshot() -> ColorSnapshot {
-        var snapshot = ColorSnapshot()
-        snapshot.appendSections([0])
-        snapshot.addRandomItems()
-        return snapshot
+        dataSource.apply(ColorSnapshot.random())
     }
 
 }

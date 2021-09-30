@@ -7,13 +7,21 @@
 
 import UIKit
 
-typealias ColorSnapshot = NSDiffableDataSourceSnapshot<Int, UIColor>
+typealias ColorSnapshot = NSDiffableDataSourceSnapshot<Int, Color>
 
 extension ColorSnapshot {
+    
+    static func random() -> ColorSnapshot {
+        var snapshot = ColorSnapshot()
+        snapshot.appendSections([0])
+        snapshot.addRandomItems()
+        return snapshot
+    }
+    
     mutating func addRandomItems(count: Int = 10, to section: Int? = nil) {
-        var items = [UIColor]()
+        var items = [Color]()
         for _ in 0..<count {
-            items.append(UIColor.random())
+            items.append(Color())
         }
         if let section = section {
             self.appendItems(items, toSection: section)
@@ -21,4 +29,5 @@ extension ColorSnapshot {
             self.appendItems(items)
         }
     }
+    
 }
