@@ -9,13 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Container().edgesIgnoringSafeArea(.all)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Container().edgesIgnoringSafeArea(.all)
+    }
+}
+
+struct Container: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -> some UIViewController {
+        UINavigationController(rootViewController: ListViewController())
+    }
+    
+    func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {
+        
     }
 }
