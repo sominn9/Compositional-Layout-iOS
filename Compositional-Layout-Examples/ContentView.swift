@@ -35,7 +35,10 @@ struct Container: UIViewControllerRepresentable {
 //        UINavigationController(rootViewController: LazyGridViewController())
         
         // 크기 변경이 가능한 그리드 뷰
-        UINavigationController(rootViewController: ResizableGridViewController())
+//        UINavigationController(rootViewController: ResizableGridViewController())
+        
+        // 배경을 가지고 있는 섹션
+        UINavigationController(rootViewController: BackgroundDecorationViewController())
     }
     
     func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {
