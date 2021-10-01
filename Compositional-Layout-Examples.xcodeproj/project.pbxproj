@@ -24,6 +24,8 @@
 		CB48010127032D440002D3F1 /* RoundedCornerColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB48010027032D440002D3F1 /* RoundedCornerColorCell.swift */; };
 		CB48010527034AC40002D3F1 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB48010427034AC40002D3F1 /* UIColor+Extension.swift */; };
 		CB48010727034B230002D3F1 /* ColorSnapshot+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB48010627034B230002D3F1 /* ColorSnapshot+Extension.swift */; };
+		CBBBC6882707631700C5DD71 /* SystemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBBC6872707631700C5DD71 /* SystemListViewController.swift */; };
+		CBBBC68A270765C600C5DD71 /* NSCollectionLayoutSection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBBC689270765C600C5DD71 /* NSCollectionLayoutSection+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		CB48010027032D440002D3F1 /* RoundedCornerColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerColorCell.swift; sourceTree = "<group>"; };
 		CB48010427034AC40002D3F1 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		CB48010627034B230002D3F1 /* ColorSnapshot+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorSnapshot+Extension.swift"; sourceTree = "<group>"; };
+		CBBBC6872707631700C5DD71 /* SystemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemListViewController.swift; sourceTree = "<group>"; };
+		CBBBC689270765C600C5DD71 /* NSCollectionLayoutSection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSCollectionLayoutSection+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 				CB039CF32705C489004781F8 /* LazyGridViewController.swift */,
 				CB039CF52705DD39004781F8 /* ResizableGridViewController.swift */,
 				CB039CF72706095B004781F8 /* BackgroundDecorationViewController.swift */,
+				CBBBC6872707631700C5DD71 /* SystemListViewController.swift */,
 				CB039CEF27056FB6004781F8 /* StickyHeaderViewController.swift */,
 			);
 			path = ViewControllers;
@@ -142,6 +147,7 @@
 			children = (
 				CB48010627034B230002D3F1 /* ColorSnapshot+Extension.swift */,
 				CB48010427034AC40002D3F1 /* UIColor+Extension.swift */,
+				CBBBC689270765C600C5DD71 /* NSCollectionLayoutSection+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -219,12 +225,14 @@
 				CB039CF22705835C004781F8 /* ResponsiveGridViewController.swift in Sources */,
 				CB4800F027032B5E0002D3F1 /* ContentView.swift in Sources */,
 				CB039CFA27060FAD004781F8 /* RoundedBackgroundView.swift in Sources */,
+				CBBBC68A270765C600C5DD71 /* NSCollectionLayoutSection+Extension.swift in Sources */,
 				CB48010127032D440002D3F1 /* RoundedCornerColorCell.swift in Sources */,
 				CB4800EE27032B5E0002D3F1 /* Compositional_Layout_ExamplesApp.swift in Sources */,
 				CB48010727034B230002D3F1 /* ColorSnapshot+Extension.swift in Sources */,
 				CB4800FD27032C330002D3F1 /* ListViewController.swift in Sources */,
 				CB039CF62705DD39004781F8 /* ResizableGridViewController.swift in Sources */,
 				CB039CF82706095B004781F8 /* BackgroundDecorationViewController.swift in Sources */,
+				CBBBC6882707631700C5DD71 /* SystemListViewController.swift in Sources */,
 				CB039CEE270566A6004781F8 /* Color.swift in Sources */,
 				CB039CF42705C489004781F8 /* LazyGridViewController.swift in Sources */,
 				CB039CF027056FB6004781F8 /* StickyHeaderViewController.swift in Sources */,

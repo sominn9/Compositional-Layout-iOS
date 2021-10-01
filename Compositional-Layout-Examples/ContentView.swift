@@ -38,7 +38,10 @@ struct Container: UIViewControllerRepresentable {
 //        UINavigationController(rootViewController: ResizableGridViewController())
         
         // 배경을 가지고 있는 섹션
-        UINavigationController(rootViewController: BackgroundDecorationViewController())
+//        UINavigationController(rootViewController: BackgroundDecorationViewController())
+        
+        // 시스템 리스트 뷰
+        UINavigationController(rootViewController: SystemListViewController())
     }
     
     func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {
