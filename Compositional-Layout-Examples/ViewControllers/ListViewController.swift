@@ -23,7 +23,7 @@ class ListViewController: UIViewController {
             let item = NSCollectionLayoutItem(
                 layoutSize: NSCollectionLayoutSize(
                     widthDimension : .fractionalWidth(1),
-                    heightDimension: .absolute(100))
+                    heightDimension: .fractionalHeight(1))
             )
             item.contentInsets.bottom = 10
             
