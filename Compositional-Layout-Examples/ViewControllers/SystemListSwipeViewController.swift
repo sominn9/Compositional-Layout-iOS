@@ -51,9 +51,7 @@ class SystemListSwipeViewController: UIViewController {
         view.addSubview(collectionView)
         collectionView.frame = view.bounds
         collectionView.contentInset.top = 10
-        
         collectionView.register(RoundedCornerColorCell.self, forCellWithReuseIdentifier: RoundedCornerColorCell.identifier)
-        collectionView.register(HeaderView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: HeaderView.identifier)
         
         dataSource = ColorDiffableDataSource(collectionView: collectionView)
         loadData()
