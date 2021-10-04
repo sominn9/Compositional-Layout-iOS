@@ -80,7 +80,7 @@ class SystemListSwipeViewController: UIViewController {
             
             var config = UICollectionLayoutListConfiguration(appearance: appearance.appearance)
             
-            // 리스트에 스와이프 액션 추가
+            // Add swipe action to list
             config.leadingSwipeActionsConfigurationProvider = { [weak self] (indexPath) in
                 guard let self = self else { return nil }
                 guard let item = self.dataSource.itemIdentifier(for: indexPath) else { return nil }
