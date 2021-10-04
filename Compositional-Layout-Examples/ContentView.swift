@@ -41,7 +41,10 @@ struct Container: UIViewControllerRepresentable {
 //        UINavigationController(rootViewController: BackgroundDecorationViewController())
         
         // 시스템 리스트 뷰
-        UINavigationController(rootViewController: SystemListHeaderViewController())
+//        UINavigationController(rootViewController: SystemListHeaderViewController())
+        
+        // Sticky 헤더 뷰
+        UINavigationController(rootViewController: StickyHeaderViewController())
     }
     
     func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {
