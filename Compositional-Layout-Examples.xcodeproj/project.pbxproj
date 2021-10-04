@@ -25,6 +25,8 @@
 		CB48010127032D440002D3F1 /* RoundedCornerColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB48010027032D440002D3F1 /* RoundedCornerColorCell.swift */; };
 		CB48010527034AC40002D3F1 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB48010427034AC40002D3F1 /* UIColor+Extension.swift */; };
 		CB48010727034B230002D3F1 /* ColorSnapshot+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB48010627034B230002D3F1 /* ColorSnapshot+Extension.swift */; };
+		CB892C28270B439700030BF8 /* SystemListHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB892C27270B439700030BF8 /* SystemListHeaderViewController.swift */; };
+		CB892C2A270B475000030BF8 /* InteractiveHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB892C29270B475000030BF8 /* InteractiveHeaderView.swift */; };
 		CBBBC6882707631700C5DD71 /* SystemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBBC6872707631700C5DD71 /* SystemListViewController.swift */; };
 		CBBBC68A270765C600C5DD71 /* NSCollectionLayoutSection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBBC689270765C600C5DD71 /* NSCollectionLayoutSection+Extension.swift */; };
 		CBBBC68C27077B3300C5DD71 /* SystemListSwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBBC68B27077B3300C5DD71 /* SystemListSwipeViewController.swift */; };
@@ -50,6 +52,8 @@
 		CB48010027032D440002D3F1 /* RoundedCornerColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerColorCell.swift; sourceTree = "<group>"; };
 		CB48010427034AC40002D3F1 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		CB48010627034B230002D3F1 /* ColorSnapshot+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorSnapshot+Extension.swift"; sourceTree = "<group>"; };
+		CB892C27270B439700030BF8 /* SystemListHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemListHeaderViewController.swift; sourceTree = "<group>"; };
+		CB892C29270B475000030BF8 /* InteractiveHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveHeaderView.swift; sourceTree = "<group>"; };
 		CBBBC6872707631700C5DD71 /* SystemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemListViewController.swift; sourceTree = "<group>"; };
 		CBBBC689270765C600C5DD71 /* NSCollectionLayoutSection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSCollectionLayoutSection+Extension.swift"; sourceTree = "<group>"; };
 		CBBBC68B27077B3300C5DD71 /* SystemListSwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemListSwipeViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +128,7 @@
 				CB039CF72706095B004781F8 /* BackgroundDecorationViewController.swift */,
 				CBBBC6872707631700C5DD71 /* SystemListViewController.swift */,
 				CBBBC68B27077B3300C5DD71 /* SystemListSwipeViewController.swift */,
+				CB892C27270B439700030BF8 /* SystemListHeaderViewController.swift */,
 				CB039CEF27056FB6004781F8 /* StickyHeaderViewController.swift */,
 			);
 			path = ViewControllers;
@@ -136,6 +141,7 @@
 				CB039CF927060FAD004781F8 /* RoundedBackgroundView.swift */,
 				CB039CFB2706134D004781F8 /* ItemCell.swift */,
 				CB1FB0D72709F85B00A05831 /* HeaderView.swift */,
+				CB892C29270B475000030BF8 /* InteractiveHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -230,8 +236,10 @@
 			files = (
 				CB039CF22705835C004781F8 /* ResponsiveGridViewController.swift in Sources */,
 				CB4800F027032B5E0002D3F1 /* ContentView.swift in Sources */,
+				CB892C2A270B475000030BF8 /* InteractiveHeaderView.swift in Sources */,
 				CB039CFA27060FAD004781F8 /* RoundedBackgroundView.swift in Sources */,
 				CBBBC68A270765C600C5DD71 /* NSCollectionLayoutSection+Extension.swift in Sources */,
+				CB892C28270B439700030BF8 /* SystemListHeaderViewController.swift in Sources */,
 				CB48010127032D440002D3F1 /* RoundedCornerColorCell.swift in Sources */,
 				CB4800EE27032B5E0002D3F1 /* Compositional_Layout_ExamplesApp.swift in Sources */,
 				CB1FB0D82709F85B00A05831 /* HeaderView.swift in Sources */,
