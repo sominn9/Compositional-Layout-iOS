@@ -1,5 +1,5 @@
 //
-//  PanelViewController.swift
+//  CarouselViewController.swift
 //  Compositional-Layout-Examples
 //
 //  Created by 신소민 on 2021/10/05.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PanelViewController: UIViewController {
+class CarouselViewController: UIViewController {
 
     private lazy var collectionView: UICollectionView = {
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: createLayout())
@@ -19,7 +19,7 @@ class PanelViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Onboarding Example"
+        title = "Carousel Example"
         
         // Set up collection view
         view.addSubview(collectionView)
