@@ -16,7 +16,6 @@ class PanelViewController: UIViewController {
     }()
     
     private var dataSource: ColorDiffableDataSource!
-    private let itemCount: Int = 3
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -68,4 +67,5 @@ class PanelViewController: UIViewController {
             return section
         }
     }
+    
 }
