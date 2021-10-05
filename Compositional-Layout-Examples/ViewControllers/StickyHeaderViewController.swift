@@ -86,7 +86,7 @@ class StickyHeaderViewController: UIViewController {
             elementKind: UICollectionView.elementKindSectionHeader,
             alignment: .top)
         
-        // This activates the sticky behavoir
+        // This activates the sticky behavior
         headerElement.pinToVisibleBounds = true
         
         section.boundarySupplementaryItems = [headerElement]
