@@ -44,7 +44,10 @@ struct Container: UIViewControllerRepresentable {
 //        UINavigationController(rootViewController: SystemListHeaderViewController())
         
         // Sticky 헤더 뷰
-        UINavigationController(rootViewController: StickyHeaderViewController())
+//        UINavigationController(rootViewController: StickyHeaderViewController())
+        
+        // Onboarding 레이아웃
+        UINavigationController(rootViewController: PanelViewController())
     }
     
     func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {
