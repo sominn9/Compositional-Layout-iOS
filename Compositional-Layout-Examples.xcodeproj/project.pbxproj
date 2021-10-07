@@ -17,7 +17,7 @@
 		CB039CFA27060FAD004781F8 /* RoundedBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB039CF927060FAD004781F8 /* RoundedBackgroundView.swift */; };
 		CB039CFC2706134D004781F8 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB039CFB2706134D004781F8 /* ItemCell.swift */; };
 		CB1FB0D82709F85B00A05831 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1FB0D72709F85B00A05831 /* HeaderView.swift */; };
-		CB4300C8270BF130000E865E /* PanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4300C7270BF130000E865E /* PanelViewController.swift */; };
+		CB4300C8270BF130000E865E /* CarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4300C7270BF130000E865E /* CarouselViewController.swift */; };
 		CB4800EE27032B5E0002D3F1 /* Compositional_Layout_ExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4800ED27032B5E0002D3F1 /* Compositional_Layout_ExamplesApp.swift */; };
 		CB4800F027032B5E0002D3F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4800EF27032B5E0002D3F1 /* ContentView.swift */; };
 		CB4800F227032B5F0002D3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4800F127032B5F0002D3F1 /* Assets.xcassets */; };
@@ -32,6 +32,7 @@
 		CBBBC6882707631700C5DD71 /* SystemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBBC6872707631700C5DD71 /* SystemListViewController.swift */; };
 		CBBBC68A270765C600C5DD71 /* NSCollectionLayoutSection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBBC689270765C600C5DD71 /* NSCollectionLayoutSection+Extension.swift */; };
 		CBBBC68C27077B3300C5DD71 /* SystemListSwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBBC68B27077B3300C5DD71 /* SystemListSwipeViewController.swift */; };
+		CBBE690F270C822F00D75B89 /* InfiniteCarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE690E270C822F00D75B89 /* InfiniteCarouselViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +46,7 @@
 		CB039CF927060FAD004781F8 /* RoundedBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBackgroundView.swift; sourceTree = "<group>"; };
 		CB039CFB2706134D004781F8 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		CB1FB0D72709F85B00A05831 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
-		CB4300C7270BF130000E865E /* PanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelViewController.swift; sourceTree = "<group>"; };
+		CB4300C7270BF130000E865E /* CarouselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewController.swift; sourceTree = "<group>"; };
 		CB4800EA27032B5E0002D3F1 /* Compositional-Layout-Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Compositional-Layout-Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4800ED27032B5E0002D3F1 /* Compositional_Layout_ExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compositional_Layout_ExamplesApp.swift; sourceTree = "<group>"; };
 		CB4800EF27032B5E0002D3F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +62,7 @@
 		CBBBC6872707631700C5DD71 /* SystemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemListViewController.swift; sourceTree = "<group>"; };
 		CBBBC689270765C600C5DD71 /* NSCollectionLayoutSection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSCollectionLayoutSection+Extension.swift"; sourceTree = "<group>"; };
 		CBBBC68B27077B3300C5DD71 /* SystemListSwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemListSwipeViewController.swift; sourceTree = "<group>"; };
+		CBBE690E270C822F00D75B89 /* InfiniteCarouselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteCarouselViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +136,8 @@
 				CBBBC68B27077B3300C5DD71 /* SystemListSwipeViewController.swift */,
 				CB892C27270B439700030BF8 /* SystemListHeaderViewController.swift */,
 				CB039CEF27056FB6004781F8 /* StickyHeaderViewController.swift */,
-				CB4300C7270BF130000E865E /* PanelViewController.swift */,
+				CB4300C7270BF130000E865E /* CarouselViewController.swift */,
+				CBBE690E270C822F00D75B89 /* InfiniteCarouselViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -244,13 +247,14 @@
 				CB039CF22705835C004781F8 /* ResponsiveGridViewController.swift in Sources */,
 				CB4800F027032B5E0002D3F1 /* ContentView.swift in Sources */,
 				CB892C2A270B475000030BF8 /* InteractiveHeaderView.swift in Sources */,
-				CB4300C8270BF130000E865E /* PanelViewController.swift in Sources */,
+				CB4300C8270BF130000E865E /* CarouselViewController.swift in Sources */,
 				CB039CFA27060FAD004781F8 /* RoundedBackgroundView.swift in Sources */,
 				CBBBC68A270765C600C5DD71 /* NSCollectionLayoutSection+Extension.swift in Sources */,
 				CB892C28270B439700030BF8 /* SystemListHeaderViewController.swift in Sources */,
 				CB48010127032D440002D3F1 /* RoundedCornerColorCell.swift in Sources */,
 				CB4800EE27032B5E0002D3F1 /* Compositional_Layout_ExamplesApp.swift in Sources */,
 				CB1FB0D82709F85B00A05831 /* HeaderView.swift in Sources */,
+				CBBE690F270C822F00D75B89 /* InfiniteCarouselViewController.swift in Sources */,
 				CB48010727034B230002D3F1 /* ColorSnapshot+Extension.swift in Sources */,
 				CB4800FD27032C330002D3F1 /* ListViewController.swift in Sources */,
 				CB039CF62705DD39004781F8 /* ResizableGridViewController.swift in Sources */,

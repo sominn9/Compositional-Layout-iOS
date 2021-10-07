@@ -30,4 +30,35 @@ extension ColorSnapshot {
         }
     }
     
+    mutating func addRandomItemForInfiniteScroll(count: Int = 10, to section: Int? = nil) {
+        // Create random color object (uuid + uicolor)
+        var items = [Color]()
+        for _ in 0..<count {
+            items.append(Color())
+        }
+        
+        // To implement infinite scroll, copy items and insert into array
+        if count != 1 {
+            var copyLastItem = Color()
+            var copyLastPrevItem = Color()
+            copyLastItem.setColor(items[items.count - 1].color)
+            copyLastPrevItem.setColor(items[items.count - 2].color)
+            
+            var copyFirstItem = Color()
+            var copyFirstNextItem = Color()
+            copyFirstItem.setColor(items[0].color)
+            copyFirstNextItem.setColor(items[1].color)
+            
+            items.insert(contentsOf: [copyLastPrevItem, copyLastItem], at: 0)
+            items.append(contentsOf: [copyFirstItem, copyFirstNextItem])
+        }
+
+        // Add the items at snapshot
+        if let section = section {
+            self.appendItems(items, toSection: section)
+        } else {
+            self.appendItems(items)
+        }
+    }
+    
 }

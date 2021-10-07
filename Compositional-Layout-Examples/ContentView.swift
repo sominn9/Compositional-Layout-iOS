@@ -46,8 +46,11 @@ struct Container: UIViewControllerRepresentable {
         // Sticky 헤더 뷰
 //        UINavigationController(rootViewController: StickyHeaderViewController())
         
-        // Onboarding 레이아웃
-        UINavigationController(rootViewController: PanelViewController())
+        // Carousel 레이아웃
+//        UINavigationController(rootViewController: CarouselViewController())
+    
+        // Infinite Carousel 레이아웃
+        UINavigationController(rootViewController: InfiniteCarouselViewController())
     }
     
     func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {

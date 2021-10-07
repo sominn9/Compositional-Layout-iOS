@@ -9,5 +9,9 @@ import UIKit
 
 struct Color: Hashable {
     let id = UUID()
-    let color = UIColor.random()
+    var color = UIColor.random()
+    
+    mutating func setColor(_ color: UIColor) {
+        self.color = color
+    }
 }
